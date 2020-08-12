@@ -2,7 +2,7 @@ const { merge } = require('webpack-merge');
 const Webpack = require('webpack');
 const CompressionPlugin = require('compression-webpack-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
-const common = require('../webpack.common.config');
+const common = require('./webpack.common.config');
 
 const plugins = [
 
